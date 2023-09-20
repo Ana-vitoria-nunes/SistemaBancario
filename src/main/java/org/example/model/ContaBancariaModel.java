@@ -5,6 +5,16 @@ public class ContaBancariaModel {
     Double saldo;
     int clienteId;
 
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    String tipo;
+
     public String getNumeroConta() {
         return numeroConta;
     }
